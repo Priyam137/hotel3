@@ -1,0 +1,82 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: gray;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color:magenta;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(175, 171, 171);
+}
+
+.book-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}
+.container{
+    border: 2px solid darkmagenta;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.room-card {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.room-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color:darkmagenta;
+    margin-bottom: 10px;
+}
+
+.room-description {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    border: 2px solid darkmagenta;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.room-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.room-dis{
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 30px;
+    
+    
+}

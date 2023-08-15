@@ -1,0 +1,188 @@
+
+.h1{
+    background-color: aqua;
+}
+.homecard{
+    width: 18rem;
+
+-webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 700px; /* Adjust the height as per your preference */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 26px;
+    
+}
+
+.carousel-button {
+    position: absolute;
+    bottom: 50px;
+    left: 90%;
+    transform: translateX(-50%);
+    background-color:darkblue;
+    color: #fff;
+    padding: 10px 20px;
+    border:black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.check-availability{
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-button-main{
+    background-color:darkmagenta;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: darkmagenta;
+}
+
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color:darkmagenta;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container h2{
+    text-align: center;
+    color: darkmagenta;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 400px; /* Adjust the height as per your preference */
+    object-fit: cover;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    opacity: 1; /* Hide the overlay by default */
+    transition: opacity 0.3s ease;
+    
+}
+
+.card:hover .card-overlay {
+    opacity: 1; /* Show the overlay on card hover */
+}
+
+.card-title-on-image {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position:absolute;
+    bottom: 0px;
+    
+    
+}
+
+.card-text-on-image {
+    font-size: 16px;
+   
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.col-6{
+    text-align: center;
+    font-family: Pacifico;
+    color: darkmagenta;
+    text-decoration: underline;
+}
+.description p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+

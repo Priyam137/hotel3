@@ -1,0 +1,73 @@
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    color:orangered;
+}
+
+.contact-details {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.contact-details h2 {
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    margin: 6px 0;
+    
+}
