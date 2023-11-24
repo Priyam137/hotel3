@@ -1,18 +1,13 @@
-
 import './room.css';
 import Room1 from "../images/room1.jpg"
 import Room2 from "../images/room2.jpg"
 import Room3 from "../images/room3.jpg"
-//import Header from '../header/header';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify';
 import Header from '../header/header';
 import Footer from '../footer/footer';
-
-
-
 
 const Room = () => {
     const [rooms, setRooms] = useState([]); 
@@ -40,9 +35,6 @@ const Room = () => {
           toast.error('Room not found for booking.');
         }
       };
-  
-   
-      
 
   return (
     <div>
@@ -79,10 +71,7 @@ const Room = () => {
         </tbody>
       </table>
       </div>
-    
-    
   
-
     <div class="aboutroom">
         <div class="row">
             <div class="col-md-6">
@@ -127,12 +116,6 @@ const Room = () => {
             </div>
         </div>
           </div><Footer/></div>
-
-    
-
-
-   
-
   );
 }
 

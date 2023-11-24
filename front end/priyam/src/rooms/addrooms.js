@@ -6,9 +6,6 @@ import { useNavigate  } from 'react-router-dom';
 import axios from 'axios';
 import AdminHeader from '../header/adminheader';
 
-
-
-
 function Addrooms() {
     const [room, setRoom] = useState({
        availability:"",
@@ -40,8 +37,6 @@ function Addrooms() {
                   navigate('/roomlist');
                 },
               });
-    
-            // You can perform additional actions after successful product addition
           })
           .catch((error) => {
             console.error('Error adding room:', error);
@@ -86,9 +81,6 @@ function Addrooms() {
     </div>
     </div>
     </>
-
-   
-
   );
 }
 

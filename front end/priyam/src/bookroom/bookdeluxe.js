@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+
 import './booksingle.css';
 
 function Bookdeluxe() {

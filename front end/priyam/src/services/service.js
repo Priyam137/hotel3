@@ -3,9 +3,6 @@ import './service.css';
 import Footer from '../footer/footer';
 import Header from '../header/header';
 
-
-
-
 function Service() {
   return (
     <>
@@ -41,10 +38,6 @@ function Service() {
 </div>
 </div><br></br>
 <Footer/></>
-
-
-   
-
   );
 }
 

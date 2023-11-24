@@ -1,7 +1,4 @@
-
-
-
-    import './userregister.css';
+ import './userregister.css';
 import {React,useState} from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -72,12 +69,7 @@ import Header from '../header/header';
         </form>
         <p>Already a user? <a href="/userlogin">Login here</a></p>
     </div>
-   </>
-       
-    
-     
-    
-   
+   </>  
 
   );
 }

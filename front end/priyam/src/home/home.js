@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+
 import './home.css';
 import Header from '../header/header';
 import Hotel1 from "../images/hotel1.jpg"
@@ -13,16 +13,13 @@ function Home() {
   return (
     <><Header/>
     <div>
-
     <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
-   
     <ol class="carousel-indicators">
         <li data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#homeCarousel" data-bs-slide-to="1"></li>
         <li data-bs-target="#homeCarousel" data-bs-slide-to="2"></li>
     </ol>
 
-   
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src={Hotel1} alt="Slide 1"/>
@@ -80,10 +77,7 @@ function Home() {
             </div>
             </form>
             </div></div><br></br>
-
-
-
-        
+ 
         <div class="row">
             
             <div class="col-md-6">
@@ -118,10 +112,7 @@ function Home() {
                     </div>
                 </div>
             </div><br></br>
-
-            
-
-            
+     
             <div class="col-md-6">
                 <div class="card">
                     <img src={Room3} class="card-img-top" alt="Hotel 3"/>
@@ -141,22 +132,7 @@ function Home() {
     </div>
     <Footer/>
     </>
-    
-
-
-  
-  
-
-
-
-
-
-    
-
   );
   
 }
-
-
-
 export default Home;

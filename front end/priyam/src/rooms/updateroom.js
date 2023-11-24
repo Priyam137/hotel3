@@ -41,7 +41,7 @@ const UpdateRoom = () => {
       .post(`http://127.0.0.1:4000/admin/updateroom/${room._id}`, room)
       .then((response) => {
         console.log('Product updated successfully:', response.data);
-        toast.success('Product added successfully!', {
+        toast.success('Room Updated successfully!', {
           onClose: () => {
             // Redirect to the product listing component
             navigate('/roomlist');

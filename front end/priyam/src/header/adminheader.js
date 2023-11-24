@@ -1,9 +1,5 @@
-//import logo from './logo.svg';
+
 import './header.css';
-//import HotelLogo from "../images/hotellogo.jpeg";
-//import userlogin from '../userlogin/userlogin'
-
-
 function AdminHeader() {
   const handleLogout = () => {
     // Clear the token from localStorage
@@ -14,7 +10,6 @@ function AdminHeader() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary" >
     <div class="container-fluid">
-    {/*<img src={HotelLogo} class="navbar-logo w-100" alt="..."/>*/}
       <a class="navbar-brand" >Hotel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

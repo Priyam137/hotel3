@@ -6,8 +6,6 @@ import Room3 from "../images/room3.jpg"
 import Footer from '../footer/footer';
 import Header from '../header/header';
 
-
-
 function Doubleroom() {
   return (
     <>
@@ -55,10 +53,6 @@ function Doubleroom() {
         </div>
     </div><br></br>
     <Footer/></>
-
-
-   
-
   );
 }
 

@@ -137,9 +137,7 @@ router.post('/adminregister', async (req, res) => {
  
     let admin = await new Admin(req.body).save();
     res.status(200).json({ message: "Admin Register Successfully", data: admin, success: true });
- 
-    //   await nodemail('contact@jiorooms.com', req.body.email, 'Registration Successfull', "You have been successfully registered")
-    //   res.json({ message: 'Admin Registered', success: true });
+
  
   }
   catch (err) {

@@ -3,8 +3,6 @@ import axios from 'axios';
 import './adminlogin.css';
 import AdminHeader from '../header/adminheader';
 
-
-
 const AdminLogin = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -22,7 +20,7 @@ const AdminLogin = () => {
       if (response.data.success) {
         localStorage.setItem('token', response.data.data);
 		
-        window.location = '/';
+        window.location = '/addrooms';
       } else {
         setError('Invalid credentials. Please try again.');
       }
@@ -61,8 +59,6 @@ const AdminLogin = () => {
           <input type="submit" value="Login" />
         </div>
       </form>
-
-	
     </div>
 	</>
   );

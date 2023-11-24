@@ -6,8 +6,6 @@ import Room3 from "../images/room3.jpg"
 import Footer from '../footer/footer';
 import Header from '../header/header';
 
-
-
 function Deluxeroom() {
   return (
     <>
@@ -56,10 +54,7 @@ function Deluxeroom() {
             </ul>
         </div>
     </div><br></br>
-    <Footer/></>
-
-
-   
+    <Footer/></>  
 
   );
 }

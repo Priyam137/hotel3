@@ -1,13 +1,8 @@
 
 import './about.css';
-//import Room1 from "../images/room1.jpg"
-//import Room2 from "../images/room2.jpg"
-//import Room3 from "../images/room3.jpg"
 import Hotel3 from "../images/hotel3.jpg"
 import Footer from '../footer/footer';
 import Header from '../header/header';
-
-
 
 function Room() {
   return (
@@ -31,9 +26,6 @@ function Room() {
 </div><br></br>
 <Footer/>
 </>
-
-   
-
   );
 }
 

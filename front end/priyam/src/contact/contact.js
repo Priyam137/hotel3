@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+
 import './contact.css';
 import Header from '../header/header';
 
@@ -14,8 +14,6 @@ function Contact() {
               <p>
                   If you have any questions or inquiries, please feel free to contact us using the form below or through the provided contact details.
               </p>
-  
-        
               <form action="/send-email" method="post">
                   <label for="name">Your Name:</label>
                   <input type="text" id="name" name="name" required/>

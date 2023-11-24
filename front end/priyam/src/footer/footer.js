@@ -3,8 +3,6 @@ import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-
-
 function Footer() {
   return (
     <div class="footer">
@@ -13,6 +11,7 @@ function Footer() {
                 <div class="col-md-4">
                     <h4 class="footer-heading">Contact Us</h4>
                     <p class="footer-contact">Email: chouhanpriyam137@gmail.com</p>
+                    <p class="footer-contact">Email: shubham20152001@gmail.com</p>
                     <p class="footer-contact">Phone: 8051769150</p>
                 </div>
                 <div class="col-md-4">
